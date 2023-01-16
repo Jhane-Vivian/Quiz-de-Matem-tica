@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+	<script src="login.js"></script>
+
+    <title>Quiz De Matemática</title>
+</head>
+
+<body>
+    
+    <center>
+
+		<h1 id="titulo">TABUADA DE MULTIPLICAÇÃO</h1>
+
+		<!--DEFININDO UMA DIV PARA SE ADAPTAR AOS DIFERENTES TIPOS DE TELA-->
+		<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+
+			<h3>Insira o nome do jogador 1</h3>
+
+			<label>Nome:</label>
+
+			<!--
+				class="form-control" - estilo do Bootstrap para elementos de formulários
+			-->
+			<input type="text" id="nomeJogador1" class="form-control" placeholder="Digite aqui ...">
+
+			<br>
+
+		</div>
+
+		<br>
+
+		<!--DEFININDO UMA DIV PARA SE ADAPTAR AOS DIFERENTES TIPOS DE TELA-->
+		<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+
+			<h3>Insira o nome do jogador 2</h3>
+
+			<label>Nome:</label>
+
+			<!--
+				class="form-control" - estilo do Bootstrap para elementos de formulários
+			-->
+			<input type="text" id="nomeJogador2" class="form-control" placeholder="Digite aqui ...">
+
+			<br>
+
+		</div>
+
+		<br>
+
+		<button style="width:30%" class="btn btn-info" onclick="entrar()">Entrar</button>
+
+	</center>
+
+</body>
+</html>

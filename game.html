@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz De Matemática</title>
+</head>
+
+<body>
+
+    <!--Placar-->
+    <h4 id="nomePlacarJogador1" style="color:white;"></h4> <span id="placarJogador1" style="color:white;"></span>
+
+    <br>
+
+    <h4 id="nomePlacarJogador2" style="color:white;"></h4> <span id="placarJogador2" style="color:white;"></span>
+
+    <!-- 
+        class="container" - Predefine margens externas e internas à direita e esquerda do site
+    -->
+    <div class="container">
+
+        <center>
+
+            <h2 id="titulo">TABUADA DE MULTIPLICAÇÃO</h2>
+
+            <!--Turno da pergunta-->
+            <h3 id="turnoPergunta" style="color:white;"></h3>
+
+            <!--Turno da resposta-->
+            <h3 id="turnoResposta" style="color:white;"></h3>
+
+            <!--div para exibir a tabuada proposta-->
+            <div id="saida" class="col-lg-6"></div>
+
+            <br><br>
+
+            <div class="col-lg-4 col-sm-8 col-xs-11 pergunta">
+
+                <h3>Insira os números</h3>
+
+                <label>Número1:</label>
+
+                <!--
+                    class="form-control" - estilo do Bootstrap para elementos de formulários
+                -->
+                <input type="number" id="numero1" class="form-control" placeholder="Digite aqui ...">
+
+                <br>
+
+                <label>Número2:</label>
+
+                <input type="number" id="numero2" class="form-control" placeholder="Digite aqui ...">
+
+                <br>
+
+                <button style="width:40%" class="btn btn-success" onclick="enviar()">Enviar pergunta</button>
+
+            </div>
+
+        </center>
+
+        <script src="game.js"></script>
+
+    </div>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
